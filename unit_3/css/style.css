@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #D9CAB9;
+}
+
+nav {
+	background-color: #252422;
+	background-size: 100%;
+	text-align: right;
+	padding: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navbar {
+ 	padding-right: 20px;
+ 	word-spacing: 40px;
+}
+
+header {
+	background-image: url(https://78.media.tumblr.com/2ae651d3b34ef434a763e752b317e9a4/tumblr_nm4rjv3c801u9ooogo1_500.gif);
+	background-size: 100%;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+}
+
+#slogan {
+	font-family: 
+}
+
+#order {
+    background-color: #713332;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main {
+	padding: 40px 140px 30px;
+	text-align: center;
+	color: #252422;
+}
+
+#offerings {
+	padding-top: 80px;
+	padding-bottom: 50px;
+	text-align: center;
+	line-height: 1.7;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+footer {
+	padding: 50px 0px 50px 30px;
+	text-align: center;
+	background-color: #252422;
+	color: #D9CAB9;
+}
