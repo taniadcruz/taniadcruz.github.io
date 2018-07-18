@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+body {
+	font-family: Montserrat, 'Open Sans', sans-serif;
+/*	background-color: #D9CAB9;*/
+}
+
+/*#sams {
+	padding-right: 430px;
+	height: 50px;
+}*/
+
+#nav_one {
+ 	/*background-color: #252422; original*/
+ 	background-color: #E8C66A;
+	background-size: 100%;
+	text-align: right;
+	padding: 20px;
+	font-family: Monserrat, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+ 	padding-right: 20px;
+ 	word-spacing: 60px;
+ 	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+}
+
+nav a:hover {
+	color: #BD7B69;
+}
+
+#cart {
+	height: 25px;
+	width: 25px;
+}
+
+header {
+	background-color: #FFED74;
+	/*background-image: url(https://78.media.tumblr.com/2ae651d3b34ef434a763e752b317e9a4/tumblr_nm4rjv3c801u9ooogo1_500.gif); original*/
+	background-size: 100%;
+	text-align: center;
+	padding: 70px 100px;
+	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+	}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+h2 {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 24px
+}
+
+p {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#slogan {
+	font-size: 16px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+	padding: 10px;
+}
+
+#order {
+    background-color: #713332;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main {
+	padding: 90px 140px 30px;
+	text-align: center;
+	color: #252422;
+	/*background-color: #D9CAB9; original*/
+}
+
+.second_nav {
+	padding: 20px 0;
+	background-color: #E8C66A; /*remove*/
+	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+}
+
+.nav_two {
+	padding: 50px;
+	border: 2px black solid;
+	border-radius: 50%;
+	/*background-color: #252422; original*/
+	background-color: #E8C66A;
+	margin: 60px;
+	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+}
+
+.intro {
+	padding-top: 120px;
+	background-color: #FFE2B8; /*remove*/
+	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+}
+
+#offerings {
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+	line-height: 1.7;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #FFE2B8; /*remove*/
+	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+}
+
+#contact {
+	margin: 20px 0;
+	padding: 20px;
+/*	background-color: #252422; original*/
+	background-color: #FFE2B8;
+}
+
+.insta {
+	background-color: #E89C6C;
+}
+
+.column {
+/*	border: 2px solid black;*/
+	float: left;
+	width: 25%;
+	margin: 5px;
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+/*	margin: 0 auto;*/
+}
+
+footer {
+	padding: 50px 0px;
+	text-align: center;
+/*	background-color: #252422; original
+*/	background-color: #FF957E;
+	color: #D9CAB9;
+	border: 1px black solid; /*remove*/
+    padding: 20px; /*remove*/
+}
