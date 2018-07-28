@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+body {
+	font-family: Montserrat, 'Open Sans', sans-serif;
+	background-color: #D9CAB9;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+h2 {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+p {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/*-------------FIRST NAV-------------*/
+
+.nav_one {
+ 	background-color: #252422; 
+	background-size: 100%;
+	text-align: right;
+	padding: 20px;
+	font-family: Monserrat, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+ 	padding-right: 20px;
+ 	word-spacing: 60px;
+}
+
+#nav_one a:hover {
+	color: #BD7B69;
+}
+
+#cart {
+	height: 25px;
+	width: 25px;
+}
+
+
+
+/*---------------HEADER-----------------*/
+
+header {
+	background-color: #FFED74;
+	background-image: url(https://78.media.tumblr.com/2ae651d3b34ef434a763e752b317e9a4/tumblr_nm4rjv3c801u9ooogo1_500.gif);
+	background-size: 100%;
+	text-align: center;
+	padding: 70px 100px;
+	}
+
+#slogan {
+	font-size: 16px;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center;
+	padding: 10px;
+}
+
+#order {
+    background-color: #713332;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+/*---------------SECOND NAV------------------*/
+
+.second_nav {
+	padding-top: 60px;
+}
+
+.second_nav a {
+	padding: 50px;
+	border: 2px black solid;
+	border-radius: 50%;
+	background-color: #252422;
+	margin: 60px;
+
+}
+
+
+/*--------------------MAIN---------------------*/
+
+main {
+	padding: 0 140px;
+	text-align: center;
+	color: #252422;
+	background-color: #D9CAB9; 
+}
+
+#two_column {
+	padding: 100px 0;
+}
+
+#left {
+	padding: 20px;
+	float: left;
+	width: 55%;
+}
+
+#right {
+	padding: 20px;
+	float: right;
+	width: 35%;
+}
+
+aside p {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+/*--------------------CTA----------------------*/
+
+
+#offerings {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	line-height: 1.7;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#contact {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #713332;
+}
+
+/*-----------------INSTA PICS WRAPPER----------*/
+
+.wrapper {
+	width: 98%;
+	margin: 20px auto;
+	padding: 1%;
+}
+
+.wrapper img {
+	width: 22%;
+	margin: auto;
+}
+
+
+/*--------------------FOOTER--------------------------*/
+
+footer {
+	padding: 50px 0px;
+	text-align: center;
+	background-color: #252422; 
+	color: #D9CAB9;
+}
