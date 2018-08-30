@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+body {
+	font-family: Montserrat, 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: #D9CAB9;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	color: #ffffff;
+	text-shadow: .2em .2em .25em #000000;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+h2 {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+
+/*-------------FIRST NAV-------------*/
+
+.nav_one {
+ 	background-color: #252422; 
+	text-align: right;
+	padding: 1.5em;
+	font-family: Monserrat, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+ 	padding-right: 1.5em;
+ 	word-spacing: 3.5em;
+}
+
+#nav_one a:hover {
+	color: #BD7B69;
+}
+
+#sams {
+	max-width: 7%;
+	align-content: center;
+}
+
+#cart {
+	height: 2%;
+	width: 2%;
+}
+
+#mobile {
+	display: none;
+}
+
+
+/*---------------HEADER-----------------*/
+
+header {
+	background-image: url(https://i.gifer.com/MpVq.gif);
+	background-size: cover;
+	text-align: center;
+	padding: 4em;
+}
+
+#slogan {
+	font-size: 1em;
+	color: #ffffff;
+	text-shadow: .2em .2em .25em #000000;
+	padding: 1.5em;
+}
+
+#order {
+    background-color: #713332;
+    color: #ffffff;
+    padding: .5em 1.2em;
+    text-decoration: none;
+}
+
+
+
+/*---------------SECOND NAV------------------*/
+
+.nav_two {
+	padding: 2em 3em;
+}
+
+.nav_two img {
+	max-width: 20%;
+	padding: 0 1em;
+}
+
+/*.nav_two a {
+	font-weight: 700;
+	padding: 3em;
+	margin: 3.5em;
+}*/
+
+
+/*--------------------MAIN---------------------*/
+
+main {
+	padding: 0 8em;
+	text-align: center;
+	color: #252422;
+	background-color: #D9CAB9; 
+}
+
+hr {
+	border: 0;
+	width: 80%;
+	color: #000000;
+}
+
+#intro {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 4em 0;
+	margin: 2em;
+	background-color: #ffffff;
+}
+
+#offerings {
+	font-family: Monserrat, 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 4em auto;
+	background-image: url(http://mariafresa.net/newimages/background-clipart-ice-cream-2.jpg);
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+/*--------------------CTA----------------------*/
+
+
+#cta {
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	text-align: center;
+	line-height: 1.7em;
+	font-weight: bold;
+	font-size: 1.25em;
+	background-color: #BD7B69;
+}
+
+#contact {
+	margin: 1.5em 0;
+	padding: 1em;
+	background-color: #713332;
+}
+
+/*-----------------INSTA PICS WRAPPER----------*/
+
+.wrapper {
+	width: 98%;
+	margin: 1.5em 0;
+	padding: 1%;
+	background-color: #252422;
+}
+
+.wrapper img {
+	width: 22%;
+	margin: .5em;
+	float: left;
+}
+
+
+/*--------------------FOOTER--------------------------*/
+
+footer {
+	padding: 3em 0;
+	text-align: center;
+	background-color: #252422; 
+	color: #D9CAB9;
+}
+
+
+/*--------------MEDIA QUERIES----------------*/
+
+
+@media only screen and (max-width:820px) {
+	body p {
+		font-size: 14px;
+		float: none;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.nav_one a {
+		display: none;
+	}
+
+	#mobile {
+		display: block;
+	}
+
+	.nav_two img {
+		max-width: 25%;
+		margin: auto;
+	}	
+}
+
+
+@media only screen and (max-width:545px) {
+	body p {
+		font-size: 14px;
+		float: none;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	main {
+		padding: 0 4em;
+	}
+
+	.nav_one a {
+		display: none;
+	}
+
+	#mobile {
+		display: block;
+	}
+
+	.nav_two img {
+	/*	max-width: 30%;
+		margin: auto;*/
+		display: none;
+	}	
+
+	#wrapper {
+		float: none;
+	}
+}
